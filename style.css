@@ -51,7 +51,7 @@
   } */
 
   img {
-    float: left;
+    float: center;
     margin-right: 5px;
     border: 1px solid;
   }
@@ -103,15 +103,17 @@
 
 
   /*----------------------------------------*/
-/* 
+
   .picture-container {
     width: 293px;
     height: 355px;
     position: relative;
-  } */
+  }
   /*-----------------------------------------*/
 
-  fix-footer {
+  footer {
+    /* position: fixed; */
+    Position: bottom;
     background-color: gray;
     padding: 10px 10px;
     text-align: center;
