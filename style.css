@@ -43,8 +43,7 @@
   nav > ul > li > a:hover {
     background-color: black;
   }
-  
-  
+    
   nav > ul > li.active > a {
     background-color: lightseagreen;
   }
@@ -59,9 +58,9 @@
     clear: center;
   }
   
-  div.picture-container:hover {
-      /*width: 22%;*/
-  }
+  /* div.picture-container:hover {
+      width: 22%;
+  } */
   
   .clearfix::after {
     content: "";
@@ -95,7 +94,25 @@
   .dropdown-content a:hover {
     background-color: #00ff00;
   }
-/*   
+
+
+  /*----------------------------------------*/
+/* 
+  .picture-container {
+    width: 293px;
+    height: 355px;
+    position: relative;
+  } */
+  /*-----------------------------------------*/
+<br></br>
+
+  footer {
+    background-color: gray;
+    padding: 10px 10px;
+    text-align: center;
+  
+  }
+  /*   
   nav {
     width: 25%;
     float: left;
@@ -171,9 +188,5 @@
     margin-right: 10px;
   }
    */
-  footer {
-    background-color: yellow;
-    padding: 10px 0px;
-    text-align: center;
-  }
+  
   
