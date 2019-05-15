@@ -49,6 +49,26 @@
   nav > ul > li.active > a {
     background-color: lightseagreen;
   }
+
+  img {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  div.picture-container:hover {
+      /*width: 22%;*/
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 /*   
   nav {
     width: 25%;
