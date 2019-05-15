@@ -104,14 +104,13 @@
     position: relative;
   } */
   /*-----------------------------------------*/
-<br></br>
 
-  footer {
+  fix-footer {
     background-color: gray;
     padding: 10px 10px;
     text-align: center;
-  
   }
+  
   /*   
   nav {
     width: 25%;
