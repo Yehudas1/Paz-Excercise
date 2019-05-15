@@ -30,9 +30,6 @@
     display: inline;
   }
   
-  nav > ul > li:last-child {
-    float: right;
-  }
   
   nav > ul > li > a {
     display: inline-block;
