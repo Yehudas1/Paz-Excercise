@@ -50,6 +50,16 @@
     background-color: lightseagreen;
   } */
 
+  .first-row {
+    /* border: 3px solid; */
+    margin: auto;
+    width: 910px;
+  }
+  .second-row {
+    /* border: 3px solid; */
+    margin: auto;
+    width: 910px;
+  }
   img {
     float: center;
     margin-right: 5px;
