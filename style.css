@@ -119,7 +119,27 @@
     height: 355px;
     position: relative;
   }
+  .text-in-picture {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  .text1 {
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+  }
+  
   /*-----------------------------------------*/
+  /* .cube-bottom { */
+   .background-cube {
+    position: relative;
+    /* float: inline; */
+     width: 30%; 
+  } 
+
+  
 
   footer {
     /* position: fixed; */
