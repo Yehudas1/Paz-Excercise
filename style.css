@@ -197,13 +197,7 @@
     top: 80px;
     right: 40px;
   }
-  /* .background-cube {
-    float: right;
-    position: relative;    
-    width: 293px;
-    height: 355px;     
-  }  */
-  
+    
   .second-row::after {
     content: "";
     clear: both;
@@ -217,18 +211,4 @@
     padding: 10px 10px;
     text-align: center;
   }
-  /*
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  article img {
-    width: 33%;
-    float: right;
-    margin-right: 10px;
-  }
-   */
-  
   
