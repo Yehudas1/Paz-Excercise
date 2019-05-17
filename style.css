@@ -102,7 +102,7 @@
     flex: 33%
   } */
   .first-row {
-    border: 3px dashed;
+    /* border: 3px dashed; */
     margin: auto;
     width: 910px;
   }
@@ -118,22 +118,7 @@
   clear: both;
   display: table;
   }
-  /* .first-row .img { */
-    /* float: center; */
-    /* margin-right: 5px; */
-    /* border: 1px solid; */
-  /* } */
   
-  /* .clear {
-    clear: center;
-  } 
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
-
   .text-in-picture {
     position: absolute;
     bottom: 20px;
@@ -164,17 +149,66 @@
   
   /*-----------------------------------------*/
   .second-row {
-    border: 3px solid;
+    /* border: 3px solid; */
     margin: auto;
     width: 920px;
   }
-  /* .cube-bottom { */
-   .background-cube {
-    position: relative;
-    /* float: inline; */
-     width: 30%; 
-  } 
+  .gray-cube { 
+    float: right;    
+    width: 293px;
+    height: 355px;
+    position: relative;    
+  }
+  .img-on-gray {
+    color: black;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .text4 {
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+  .more-details {
+    color: black;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+  }
+  .map-on-gray {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  .north {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .center {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+  }
+  .south {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+  }
+  /* .background-cube {
+    float: right;
+    position: relative;    
+    width: 293px;
+    height: 355px;     
+  }  */
   
+  .second-row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
 /*-----------------------------------------*/
   footer {
     /* position: fixed; */
