@@ -130,6 +130,22 @@
     top: 0px;
     right: 10px;
   }
+  .text2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  .read-more {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
   
   /*-----------------------------------------*/
   /* .cube-bottom { */
